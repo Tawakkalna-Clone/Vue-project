@@ -30,7 +30,7 @@
       </div> -->
     </div>
 
-    <ul id="navbar-main-menu" >
+    <ul id="navbar-main-menu">
       <li class="nav-item">
         <a class="nav-link">تواصل معنا</a>
       </li>
@@ -69,7 +69,6 @@ export default {
 </script>
 
 <style>
-
 .navbar-main-container {
   width: 100%;
   height: 98px;
@@ -84,11 +83,11 @@ export default {
   box-shadow: 0px 3px 40px #bbbbbb;
 }
 
-.navbar-side-menu{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
+.navbar-side-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
 }
 
 .navbar-side-menu-item {
@@ -98,7 +97,7 @@ export default {
 }
 
 #navbar-lang span {
- margin-left:5px ;
+  margin-left: 5px;
 }
 
 #navbar-side-menu button {
@@ -117,6 +116,20 @@ export default {
 
 #navbar-side-menu button span {
   padding-left: 20px;
+}
+
+.nav-link {
+  border-bottom: 3px solid #fff;
+  padding-bottom: 10px;
+  font-weight: medium;
+}
+
+.nav-link:hover {
+  color: #333e4b;
+  text-shadow: 0 0 0.65px #333, 0 0 0.65px #333e4b;
+  border-bottom: 3px solid #1ea89a;
+  transition: all 0.2s ease-in;
+  cursor: pointer;
 }
 
 ul {
