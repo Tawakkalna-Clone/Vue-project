@@ -98,7 +98,7 @@ export default {
 }
 
 .welocme__bottom {
-    /* background-color: coral; */
+    
 }
 
 .about__main_container {

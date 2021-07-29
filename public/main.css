@@ -2,6 +2,20 @@
     margin: 0 ; 
     padding : 0; 
     box-sizing: border-box;
+    font-family: 'DIN NEXTTM ARABIC';
+}
+
+@font-face {
+    font-family: 'DIN NEXTTM ARABIC';
+    src: url('./font/DINNextLTW23-Medium.eot');
+    src: url('./font/DINNextLTW23-Medium.eot?#iefix') format('embedded-opentype'),
+        url('./font/DINNextLTW23-Medium.woff2') format('woff2'),
+        url('./font/DINNextLTW23-Medium.woff') format('woff'),
+        url('./font/DINNextLTW23-Medium.ttf') format('truetype'),
+        url('./font/DINNextLTW23-Medium.svg#DINNextLTW23-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
 }
 
 .full__dimensions {
