@@ -1,5 +1,7 @@
-<template>
+<template >
+
   <section class="partners" dir="rtl">
+
     <h2 class="title" data-aos="zoom-in" data-aos-duration="200">
       شركاء النجاح
     </h2>
@@ -68,16 +70,19 @@
     </div>
   </section>
 </template>
-<script>
-
+<script  >
+// import 'bootstrap';
+ import 'bootstrap/dist/css/bootstrap.min.css';
 export default {};
 </script>
 
-<style>
+<style >
+
 .partners {
   background: #1fa99a;
   padding: px 0 0 0;
   padding-right: 20%;
+  padding-top: 5%;
   margin-bottom: 90px;
 }
 .partners .title {

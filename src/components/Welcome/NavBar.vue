@@ -1,8 +1,8 @@
 <template>
-  <!-- <NavBar /> -->
-  <section class="navbar-main-container">
-    <div id="navbar-side-menu">
-      <button class="navbar-side-menu-item">
+  <!-- <NvBar /> -->
+  <section class="Nvbar-main-container">
+    <div id="Nvbar-side-menu">
+      <button class="Nvbar-side-menu-item">
         &nbsp;<img
           src="../../assets/arrow-left-solid.png"
           width="15"
@@ -10,7 +10,7 @@
         />
         <span>تسجيل الدخول</span>
       </button>
-      <!-- <div class="navbar-side-menu-item" id="navbar-lang">
+      <!-- <div class="Nvbar-side-menu-item" id="Nvbar-lang">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           class="h-6 w-6"
@@ -30,48 +30,48 @@
       </div> -->
     </div>
 
-    <ul id="navbar-main-menu" >
-      <li class="nav-item">
-        <a class="nav-link">تواصل معنا</a>
+    <ul id="Nvbar-main-menu" >
+      <li class="Nv-item">
+        <div class="Nv-link">تواصل معنا</div>
       </li>
-      <li class="nav-item">
-        <a class="nav-link">الأسئلة الشائعة</a>
+      <li class="Nv-item">
+        <div class="Nv-link">الأسئلة الشائعة</div>
       </li>
-      <li class="nav-item">
-        <a class="nav-link">كيف يعمل توكلنا</a>
+      <li class="Nv-item">
+        <div class="Nv-link">كيف يعمل توكلنا</div>
       </li>
-      <li class="nav-item">
-        <a class="nav-link">خدمات توكلنا</a>
+      <li class="Nv-item">
+        <div class="Nv-link">خدمات توكلنا</div>
       </li>
-      <li class="nav-item">
-        <a class="nav-link">عن توكلنا</a>
+      <li class="Nv-item">
+        <div class="Nv-link">عن توكلنا</div>
       </li>
-      <li class="nav-item">
-        <a class="nav-link active">الرئيسية</a>
+      <li class="Nv-item">
+        <div class="Nv-link active">الرئيسية</div>
       </li>
     </ul>
 
-    <a class="navbar-brand"
+    <div class="Nvbar-brand"
       ><img
         src="../../assets/logo.svg"
         width="177.93"
         height="60"
         alt=""
         title="الرئيسية"
-    /></a>
+    /></div>
   </section>
 </template>
 
 <script>
 export default {
-  name: "NavBar",
+  name: "NvBar",
 };
 </script>
 
 <style>
 
-.navbar-main-container {
-  width: 100%;
+.Nvbar-main-container {
+  width: 100vw;
   height: 98px;
   position: fixed;
   top: 0;
@@ -84,30 +84,30 @@ export default {
   box-shadow: 0px 3px 40px #bbbbbb;
 }
 
-.navbar-side-menu{
+.Nvbar-side-menu{
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
 }
 
-.navbar-side-menu-item {
+.Nvbar-side-menu-item {
   display: flex;
   align-items: center;
   color: rgb(122, 137, 152);
 }
 
-#navbar-lang span {
+#Nvbar-lang span {
  margin-left:5px ;
 }
 
-#navbar-side-menu button {
+#Nvbar-side-menu button {
   justify-content: space-around;
   padding: 15px 30px;
   color: white;
   border: none;
   border-radius: 25px;
-  font-size: 16px;
+  font-size: 13px;
   background-image: linear-gradient(
     to right,
     rgb(141, 26, 41),
@@ -115,7 +115,7 @@ export default {
   );
 }
 
-#navbar-side-menu button span {
+#Nvbar-side-menu button span {
   padding-left: 20px;
 }
 
@@ -128,5 +128,7 @@ li {
   float: left;
   padding-left: 20px;
   color: rgb(122, 137, 152);
+  font-size: 13px;
+  
 }
 </style>
