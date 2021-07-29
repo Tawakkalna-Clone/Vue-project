@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div class="service-content">
     <img :src="data.serviceIcon" class="icon" />
     <h1>{{ data.serviceName }}</h1>
     <p>{{ data.serviceDesc }}</p>
@@ -16,7 +16,15 @@ export default {
 </script>
 
 <style>
+.service-content h1 {
+  font-size: large;
+}
+.service-content p {
+  font-size: 12px;
+  line-height: 1.5em;
+}
 .icon {
-  width: 45px;
+  width: 35px;
+  height: auto;
 }
 </style>

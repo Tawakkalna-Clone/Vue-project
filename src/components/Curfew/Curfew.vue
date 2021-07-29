@@ -1,7 +1,16 @@
 <template>
-  <div v-for="service in services" :key="service.serviceId">
-    <ServiceCard :data="service" />
-  </div>
+  <section class="services-section">
+    <h1 class="services-title">خدمات توكلنا خلال فترة المنع</h1>
+    <div class="services-container">
+      <div
+        class="services-card"
+        v-for="service in services"
+        :key="service.serviceId"
+      >
+        <ServiceCard :data="service" />
+      </div>
+    </div>
+  </section>
 </template>
 
 <script>
