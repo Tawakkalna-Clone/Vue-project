@@ -4,22 +4,11 @@
     box-sizing: border-box;
 }
 
-.full__dimensions{
+.full__dimensions {
     width: 100%;
     height: 100%;
 }
 
-
 #app {
-    width:100vw ;
-    height:100vh;
-    display:flex; 
-    flex-direction:column;
-}
-
-.welcome__main__container{
-    background-color: darkblue;
-}
-.about__main_container{
-    background-color: aqua;
+    height: 100vh;
 }
