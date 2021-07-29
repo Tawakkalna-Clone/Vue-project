@@ -1,6 +1,9 @@
 <template>
-  <h1>{{ data.serviceName }}</h1>
-  <p>{{ data.serviceDesc }}</p>
+  <div class="container">
+    <img :src="data.serviceIcon" class="icon" />
+    <h1>{{ data.serviceName }}</h1>
+    <p>{{ data.serviceDesc }}</p>
+  </div>
 </template>
 
 <script>
@@ -11,3 +14,9 @@ export default {
   },
 };
 </script>
+
+<style>
+.icon {
+  width: 45px;
+}
+</style>
