@@ -1,0 +1,144 @@
+.not-active {
+    cursor: default;
+    text-decoration: none;
+}
+
+.contact {
+    display: inline-block;
+    width: 100%;
+    /* padding: 10% */
+}
+
+.img-icon {
+    width: 32px;
+    margin-left: 5px;
+}
+
+.contact-header {
+    display: inline-block;
+}
+
+.contact-area {
+    border-bottom-left-radius: 120px;
+    border-top-left-radius: 120px;
+    padding: 40px !important;
+    margin-left: 54%;
+}
+
+.phone-title {
+    color: #fff;
+}
+
+.phone-title:hover {
+    color: #F8FBFF;
+}
+
+.inv-icon {
+    width: 24px !important;
+    margin-left: 5px;
+    margin-right: 2px;
+}
+
+.contact-header-title {
+    margin-top: 90px;
+}
+
+.contact-part-container {
+    display: flex;
+    align-items: center;
+}
+
+.twk-web {
+    background: rgb(131,22,37);
+    background: linear-gradient(70deg, rgba(131,22,37,1) 0%, rgba(218,49,69,1) 100%);
+    border-radius: 100px;
+    width: 180px;
+    height: 50px;
+    transition: all 0.2s ease-in;
+}
+.twk-web:hover {
+    border-bottom: none !important;
+    -webkit-box-shadow: 0px 3px 11px -1px rgb(199 199 199 / 79%);
+    -moz-box-shadow: 0px 3px 11px -1px rgb(199 199 199 / 79%);
+    box-shadow: 0px 3px 11px -1px rgb(199 199 199 / 79%);
+    transition: all 0.2s ease-in;
+}
+.twk-web:focus {
+    border-bottom: none !important;
+}
+.twk-web img {
+    width: 15px;
+    transition: all 0.2s ease-in;
+}
+.twk-web a{
+    color: white !important;
+    transition: all 0.2s ease-in;
+}
+.twk-web:hover a{
+    text-shadow: none !important;
+    margin-right: 15px !important;
+    transition: all 0.2s ease-in;
+}
+.twk-web:hover img {
+    
+   margin-right: 20px !important;
+    transition: all 0.2s ease-in;
+}
+
+
+@media only screen and (min-width: 1200px) {
+    .Newico {
+        width: 200px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .Newico {
+        height: 60px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .contact-area {
+        margin-left: 30%;
+    }
+    .Newico {
+        height: 60px;
+    }
+}
+
+@media only screen and (min-width: 545px) and (max-width: 767px) {
+    .contact-area {
+        margin-left: 20%;
+    }
+    .Newico {
+        height: 60px;
+    }
+}
+
+@media only screen and (max-width: 544px) {
+    .Newico {
+        height: 60px;
+    }
+    .partners h5 {
+        font-size: 18px
+    }
+    .contact-area {
+        margin-left: 0;
+    }
+    .twk-web {
+        width: 100px;
+        height: 45px;
+        margin-top: 20px !important;
+    }
+    .twk-web a {
+        font-size: 14px !important;
+    }
+    .twk-web img {
+        display: none;
+    }
+}
+.offers a p {
+    font-size: 16px;
+    line-height: 30px;
+}
