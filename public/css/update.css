@@ -1,0 +1,78 @@
+.textJustify{
+    text-align: justify;
+}
+.stcMB{
+    margin-bottom: 8px;
+}
+.servicesIcon{
+    max-height: 45px !important;
+    max-width: 45px !important;
+}
+.cardBackground{
+    background-color: #71b297 !important;
+}
+.tawkkalnaZindex{
+    z-index:1
+}
+.flagsContainer {
+    height: 430px;
+}
+.countryCard {
+width: 130px;
+max-width: 130px;
+
+text-align: center;
+margin: 10px;
+}
+.countryFlag {
+    display: block;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position-x: center;
+    margin: 0 auto;
+    border: 1px solid #f4f4f4;
+}
+.seeMoreBtn {
+    /* background-color: #1FA99A; */
+    background: rgb(8,100,79);
+    background: linear-gradient(47deg, rgba(8,100,79,1) 0%, rgba(20,159,144,1) 100%);
+    color: white;
+    padding: 8px 30px;
+    transition: all 0.2 ease-in-out;
+}
+.seeMoreBtn:hover {
+    color: white;
+    opacity: 0.9;
+    transition: all 0.2 ease-in-out;
+
+}
+#countries {
+    position: relative;
+}
+#countries::after {
+    content: "";
+    background: url(../images/globe.svg) no-repeat left bottom;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -2;
+    right: 0;
+    bottom: -146px;
+    opacity: 0.1;
+    background-size: 42%;
+    background-position-y: top;
+
+    
+}
+@media only screen and (max-width: 544px) {
+    #countries::after {
+       
+        bottom: 58px;
+        background-position-x: right
+    
+        
+    }
+}
+  
