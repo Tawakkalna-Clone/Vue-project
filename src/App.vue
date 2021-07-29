@@ -1,6 +1,5 @@
 <template>
-//fit content css height for the main section 
-    <div style="display:flex; flex-direction:column; width:100vw ; height:100vh; ">
+  
     <Welcome/>
     <About/>
     <CautiouslyWeReturn/>
@@ -12,7 +11,7 @@
     <Partner/>
     <Contactus/>
     <Footer/>
-    </div>
+ 
 </template>
 
 <script>

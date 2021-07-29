@@ -2,7 +2,6 @@
     <section class="welcome__main__container full__dimensions" >
         
     </section>
-
 </template>
 
 <script>
