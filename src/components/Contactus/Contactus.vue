@@ -18,7 +18,7 @@
                   <img src="../../assets/twitter.png " width="30" height="30" alt="twitter">
                   <h3>@TawakkalnaApp</h3>
               </div>
-              <div class="contact_list_item">
+              <div class="contact_list_item" style="margin-right:4px">
                   <img src="../../assets/mail.png " width="20" height="20"  alt="mail">
                   <h3>contact@tawakkalna.gov.sa</h3>
               </div>
@@ -39,6 +39,7 @@ export default {
 .contact_container{
     display: flex;
     flex-direction: column;
+    margin-top: 100px;
 }
 
 #contact_title_container{
@@ -58,8 +59,8 @@ color: #1fa99a;
     height: 180px;
     width: 45%;
     background-color: #1fa99a;
-    border-top-left-radius: 40%;
-    border-bottom-left-radius: 40%;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
     font-size: 20px;
     text-align: right;
     color: white;

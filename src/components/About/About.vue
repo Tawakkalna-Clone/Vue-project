@@ -46,6 +46,7 @@ export default {
         text-align: right;
         font-size: 45px;
         margin-bottom: 10%;
+        color: #1fa99a;
     }
 
     #about_content{
