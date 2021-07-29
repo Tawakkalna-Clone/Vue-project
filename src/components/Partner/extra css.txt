@@ -1,0 +1,35 @@
+  .partner 
+  @include respond-to(smallScreen) {
+        padding-left: 10%;
+    }
+    @include respond-to(ipad) {
+        padding-left: 5%;
+    }
+    @include respond-to(largeMobile) {
+        padding-left: 5%;
+    }
+    @include respond-to(mobile) {
+        padding-left: 5%;
+    }
+    .title 
+     @include respond-to(ipad) {
+            text-align: center;
+        }
+        @include respond-to(largeMobile) {
+            text-align: center;
+        }
+        @include respond-to(mobile) {
+            text-align: center;
+        }
+
+        ul 
+         @include respond-to(ipad) {
+            justify-content: center;
+        }
+        @include respond-to(largeMobile) {
+            justify-content: center;
+        }
+        @include respond-to(mobile) {
+            justify-content: center;
+        }
+        
