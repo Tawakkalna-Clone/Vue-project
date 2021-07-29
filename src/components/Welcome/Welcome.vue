@@ -84,6 +84,7 @@ export default {
     width: 200px;
     margin-left: 15px;
 }
+
 /* .welocme__bottom {
 } */
 .about__main_container {
@@ -91,4 +92,5 @@ export default {
     height: 85vh;
     width: 100%;
 }
+
 </style>
