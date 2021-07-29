@@ -2,24 +2,27 @@
     margin: 0 ; 
     padding : 0; 
     box-sizing: border-box;
+    font-family: 'DIN NEXTTM ARABIC';
 }
 
-.full__dimensions{
+@font-face {
+    font-family: 'DIN NEXTTM ARABIC';
+    src: url('./font/DINNextLTW23-Medium.eot');
+    src: url('./font/DINNextLTW23-Medium.eot?#iefix') format('embedded-opentype'),
+        url('./font/DINNextLTW23-Medium.woff2') format('woff2'),
+        url('./font/DINNextLTW23-Medium.woff') format('woff'),
+        url('./font/DINNextLTW23-Medium.ttf') format('truetype'),
+        url('./font/DINNextLTW23-Medium.svg#DINNextLTW23-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+.full__dimensions {
     width: 100%;
     height: 100%;
 }
 
-
 #app {
-    width:100vw ;
-    height:100vh;
-    display:flex; 
-    flex-direction:column;
-}
-
-.welcome__main__container{
-    background-color: darkblue;
-}
-.about__main_container{
-    background-color: aqua;
+    height: 100vh;
 }
