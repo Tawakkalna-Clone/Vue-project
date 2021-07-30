@@ -51,6 +51,7 @@
 .countries_title {
     color: #1FA99A;
     font-size: 40px;
+    /* font-weight: bold; */
     margin-bottom: 90px;
     position: relative;
 }
