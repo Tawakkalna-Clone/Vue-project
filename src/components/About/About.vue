@@ -45,7 +45,7 @@ export default {
     #about_title{
         text-align: right;
         font-size: 45px;
-        /* font-weight: bold; */
+        font-weight: bold;
         margin-bottom: 10%;
         color: #1fa99a;
     }

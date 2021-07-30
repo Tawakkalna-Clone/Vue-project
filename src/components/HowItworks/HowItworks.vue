@@ -3,9 +3,9 @@
   <h1 >{{ step }}</h1>
   <h3>{{ quations }}</h3>
   <div class="continer-btn_css">
-  <button class="btn_css how_font_size" id="btn_css-1">لدي حساب أبشر</button>
-  <button class="btn_css how_font_size" id="btn_css-2">ليس لدي حساب أبشر</button>
-  <button class="btn_css how_font_size" id="btn_css-3">تسجيل الزائرين</button>
+  <button class="btn_css " id="btn_css-1">لدي حساب أبشر</button>
+  <button class="btn_css " id="btn_css-2">ليس لدي حساب أبشر</button>
+  <button class="btn_css" id="btn_css-3">تسجيل الزائرين</button>
   </div>
 <div class="tab-content" id="pills-tabContent">
                         <div class="tab-pane fade active show" id="pills-haveAccount" role="tabpanel" aria-labelledby="pills-haveAccount-tab">
@@ -88,10 +88,10 @@ module.exports = {
 </script>
 
 <style scoped>
-/* .how_font_size{
-  font-size: 13px;
+.how_font_size{
+  font-size: 15px;
   font-weight: bold;
-} */
+}
 p {
   font-size: 2em;
   font-size: 44px;
@@ -107,15 +107,15 @@ h3 {
   
   
 }
-/* h1 {
+h1 {
   font-size: 2em;
-  font-size: 32px;
+  font-size: 33px;
   font-weight: bold;
-} */
+}
 h3{
-  /* font-size: 2em;
-  font-size: 19px;
-  font-weight: bold; */
+  font-size: 2em;
+  font-size: 20px;
+  font-weight: bold;
 color: #8D99A6;
 }
 .continer-btn_css{
@@ -127,6 +127,7 @@ color: #8D99A6;
   height: 50px;
   width: 150px;
   font-weight: bold;
+  font-size: 13px;
   text-align: center;
   margin: 10px;
   margin-bottom: 100px;

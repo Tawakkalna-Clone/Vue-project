@@ -49,7 +49,7 @@ export default {
 #contact_title{
 text-align: center;
 font-size: 31px;
-/* font-weight: bold; */
+font-weight: bold;
 color: #1fa99a;
 }
 
