@@ -57,7 +57,6 @@ export default {
     margin-bottom: 19px;
 }
 .welocme__top__left__bubble > h4 {
-    font-weight: bold;
     font-size: 30px;
     color: #fff;
 }
