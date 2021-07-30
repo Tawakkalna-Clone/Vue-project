@@ -57,6 +57,7 @@ export default {
     margin-bottom: 19px;
 }
 .welocme__top__left__bubble > h4 {
+    font-weight: bold;
     font-size: 30px;
     color: #fff;
 }
@@ -85,8 +86,7 @@ export default {
     margin-left: 15px;
 }
 
-/* .welocme__bottom {
-} */
+
 .about__main_container {
     background-color: aqua;
     height: 85vh;

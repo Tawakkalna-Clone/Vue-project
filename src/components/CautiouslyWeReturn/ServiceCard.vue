@@ -17,6 +17,7 @@ export default {
 
 <style>
 .service-content h1 {
+  padding-top: 4px;
   font-size: large;
 }
 .service-content p {
