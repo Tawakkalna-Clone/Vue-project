@@ -73,6 +73,7 @@ export default {
 .Nvbar-main-container {
   width: 100vw;
   height: 98px;
+  z-index: 50;
   position: fixed;
   top: 0;
   display: flex;
