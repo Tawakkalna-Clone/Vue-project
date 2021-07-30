@@ -129,7 +129,7 @@ li {
   float: left;
   padding-left: 20px;
   color: rgb(122, 137, 152);
-  /* font-size: 17px; */
+ 
   
 }
 </style>

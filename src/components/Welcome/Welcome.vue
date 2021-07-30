@@ -86,8 +86,7 @@ export default {
     margin-left: 15px;
 }
 
-/* .welocme__bottom {
-} */
+
 .about__main_container {
     background-color: aqua;
     height: 85vh;

@@ -208,7 +208,7 @@ border-radius: 20px;
 .li{
     text-align:right ;
      list-style-type: none;
-     padding: 15px;
+     padding: 11px;
      margin: auto;
        direction: rtl;
     
