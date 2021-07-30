@@ -38,7 +38,7 @@
       >
         <li
           class="
-            h4
+            h5
             font-weight-lighter
             border-bottom border-3 border-danger
             mb-0
@@ -47,13 +47,13 @@
         >
           عام
         </li>
-        <li class="h4 font-weight-lighter mb-0">تحميل التطيبق</li>
-        <li class="h4 font-weight-lighter mb-0">التسجيل والدخول</li>
-        <li class="h4 font-weight-lighter mb-0">تعديل البيانات الشخصية</li>
-        <li class="h4 font-weight-lighter mb-0">خدمات التطبيق</li>
+        <li class="h5 font-weight-lighter mb-0">تحميل التطيبق</li>
+        <li class="h5 font-weight-lighter mb-0">التسجيل والدخول</li>
+        <li class="h5 font-weight-lighter mb-0">تعديل البيانات الشخصية</li>
+        <li class="h5 font-weight-lighter mb-0">خدمات التطبيق</li>
       </ul>
     </div>
-    <div class="accordion w-50" id="accordionExample" style="margin-top: 5em">
+    <div class="accordion w-75" id="accordionExample" style="margin-top: 5em">
       <div class="accordion-item my-4 shadow-sm rounded-3 border-0 p-3">
         <h2 class="accordion-header" id="headingOne">
           <button
