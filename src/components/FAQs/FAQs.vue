@@ -53,8 +53,8 @@
         <li class="h4 font-weight-lighter mb-0">خدمات التطبيق</li>
       </ul>
     </div>
-    <div class="accordion w-75" id="accordionExample" style="margin-top: 5em">
-      <div class="accordion-item my-4 shadow-sm rounded-3 border-0">
+    <div class="accordion w-50" id="accordionExample" style="margin-top: 5em">
+      <div class="accordion-item my-4 shadow-sm rounded-3 border-0 p-3">
         <h2 class="accordion-header" id="headingOne">
           <button
             class="accordion-button collapsed d-flex flex-row-reverse w-100"
@@ -82,7 +82,7 @@
           </div>
         </div>
       </div>
-      <div class="accordion-item my-4 shadow-sm rounded-3 border-0">
+      <div class="accordion-item my-4 shadow-sm rounded-3 border-0 p-3">
         <h2 class="accordion-header" id="headingTwo">
           <button
             class="accordion-button collapsed d-flex flex-row-reverse w-100"
@@ -110,7 +110,7 @@
           </div>
         </div>
       </div>
-      <div class="accordion-item my-4 shadow-sm rounded-3 border-0">
+      <div class="accordion-item my-4 shadow-sm rounded-3 border-0 p-3">
         <h2 class="accordion-header" id="headingThree">
           <button
             class="accordion-button collapsed d-flex flex-row-reverse w-100"
@@ -137,7 +137,7 @@
           </div>
         </div>
       </div>
-      <div class="accordion-item my-4 shadow-sm rounded-3 border-0">
+      <div class="accordion-item my-4 shadow-sm rounded-3 border-0 p-3">
         <h2 class="accordion-header" id="headingFuor">
           <button
             class="accordion-button collapsed d-flex flex-row-reverse w-100"
@@ -164,7 +164,7 @@
           </div>
         </div>
       </div>
-      <div class="accordion-item my-4 shadow-sm rounded-3 border-0">
+      <div class="accordion-item my-4 shadow-sm rounded-3 border-0 p-3">
         <h2 class="accordion-header" id="headingFive">
           <button
             class="accordion-button collapsed d-flex flex-row-reverse w-100"
