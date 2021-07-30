@@ -1,11 +1,11 @@
 <template>
   <p>{{ how }}</p>
-  <h1>{{ step }}</h1>
+  <h1 >{{ step }}</h1>
   <h3>{{ quations }}</h3>
-  <div class="continer-btn">
-  <button class="btn" id="btn-1">لدي حساب أبشر</button>
-  <button class="btn" id="btn-2">ليس لدي حساب أبشر</button>
-  <button class="btn" id="btn-3">تسجيل الزائرين</button>
+  <div class="continer-botton">
+  <button class="botton how_font_size" id="botton-1">لدي حساب أبشر</button>
+  <button class="botton how_font_size" id="botton-2">ليس لدي حساب أبشر</button>
+  <button class="botton how_font_size" id="botton-3">تسجيل الزائرين</button>
   </div>
 <div class="tab-content" id="pills-tabContent">
                         <div class="tab-pane fade active show" id="pills-haveAccount" role="tabpanel" aria-labelledby="pills-haveAccount-tab">
@@ -16,7 +16,7 @@
                                             <div class="icon">
                                                 <img src="../../assets/favicon.png" alt="">
                                             </div>
-                                            <h4>حمّل التطبيق</h4>
+                                            <h4 class="how_font_size">حمّل التطبيق</h4>
                                     </li>
                                     <li>
                                       
@@ -24,7 +24,7 @@
                                             <div class="icon">
                                                 <img src="../../assets/step1.png" alt="">
                                             </div>
-                                            <h4>تسجيل مستخدم جديد وإدخال المعلومات المطلوبة</h4>
+                                            <h4 class="how_font_size">تسجيل مستخدم جديد وإدخال المعلومات المطلوبة</h4>
                                       
                                     </li>
                                     <li>
@@ -33,7 +33,7 @@
                                             <div class="icon">
                                                 <img src="../../assets/step2.png" alt="">
                                             </div>
-                                            <h4>سيصلك رمز التحقق على جوالك المسجّل في أبشر لتفعيل الحساب</h4>
+                                            <h4 class="how_font_size">سيصلك رمز التحقق على جوالك المسجّل في أبشر لتفعيل الحساب</h4>
                                       
                                     </li>
                                     <li>
@@ -42,7 +42,7 @@
                                             <div class="icon">
                                                 <img src="../../assets/step3.png" alt="">
                                             </div>
-                                            <h4>حدّد مكان إقامتك على الخريطة بشكل دقيق وأجب عن الأسئلة الصحية</h4>
+                                            <h4 class="how_font_size">حدّد مكان إقامتك على الخريطة بشكل دقيق وأجب عن الأسئلة الصحية</h4>
                                       
                                     </li>
                                     <li>
@@ -51,7 +51,7 @@
                                             <div class="icon">
                                                 <img src="../../assets/step4.png" alt="">
                                             </div>
-                                            <h4>حدد التابعين والمكفولين الموجودين في نفس مكان إقامتك (عائلة، عمال
+                                            <h4 class="how_font_size">حدد التابعين والمكفولين الموجودين في نفس مكان إقامتك (عائلة، عمال
                                                 منزليون)</h4>
                                       
                                     </li>
@@ -88,6 +88,10 @@ module.exports = {
 </script>
 
 <style scoped>
+.how_font_size{
+  font-size: 13px;
+  font-weight: bold;
+}
 p {
   font-size: 2em;
   font-size: 44px;
@@ -101,16 +105,25 @@ h3 {
   text-align: right;
   margin: 5px;
   
+  
+}
+h1 {
+  font-size: 2em;
+  font-size: 32px;
+  font-weight: bold;
 }
 h3{
+  font-size: 2em;
+  font-size: 19px;
+  font-weight: bold;
 color: #8D99A6;
 }
-.continer-btn{
+.continer-botton{
   display: flex;
     flex-direction: row-reverse;
 
 }
-.btn {
+.botton {
   height: 50px;
   width: 150px;
   font-weight: bold;
@@ -120,20 +133,20 @@ color: #8D99A6;
 transition-duration: 0.4s;
 border-radius: 20px;
 }
-#btn-2:hover,#btn-3:hover {
+#botton-2:hover,#botton-3:hover {
   background-color: #DD4247;
   color: white;
 }
-#btn-1{
+#botton-1{
   background: #DD4247;
   color: white;
 }
-#btn-2{
+#botton-2{
   border: 2px solid #8D99A6;
   color: #8D99A6;
   background-color: white;
 }
-#btn-3{
+#botton-3{
    border: 2px solid #8D99A6;
    color: #8D99A6;
    background-color: white;

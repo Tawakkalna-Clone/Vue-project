@@ -32,6 +32,7 @@ export default {
 .services-title {
   margin: 2em 0em;
   text-align: center;
+  font-weight: bold;
   font-size: 1.8em;
   color: #1ea99a;
 }
@@ -39,6 +40,7 @@ export default {
   color: #333e4b;
 }
 .services-card h1{
+  font-weight: bold;
   transition: color 0.5s;
 }
 .services-card:hover h1 {
