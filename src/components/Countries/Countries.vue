@@ -29,7 +29,7 @@
             </div>
         </div>
         <div class="countries_buttonContainer">
-                <a href="countries.html" class="countries_button"> 
+                <a href="#" class="countries_button"> 
                     <span>عرض المزيد</span>
                     <!-- <i class="fas fa-chevron-left mr-2"></i> -->
                 </a>
