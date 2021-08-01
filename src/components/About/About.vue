@@ -1,5 +1,5 @@
 <template>
-    <section class="about__main_container full__dimensions " >
+    <section class=" full__dimensions " >
         <div class="about_container">
 
         <div class="about_right">
